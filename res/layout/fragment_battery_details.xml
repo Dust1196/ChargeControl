@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/Battery_Details_Headline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Akku Details"
+        android:textSize="30dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/Description_Battery_Level"
+        android:layout_width="170dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/Battery_Details_Headline"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="30dp"
+        android:textSize="20dp"
+        android:text="Akkustand:"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/Details_Battery_Level"
+        android:layout_width="180dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/Battery_Details_Headline"
+        android:layout_marginTop="15dp"
+        android:layout_toEndOf="@id/Description_Battery_Level"
+        android:textSize="20dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/Description_Battery_Temperature"
+        android:layout_width="170dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/Description_Battery_Level"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="30dp"
+        android:textSize="20dp"
+        android:text="Akkutemperatur:"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/Details_Battery_Temperature"
+        android:layout_width="180dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/Details_Battery_Level"
+        android:layout_marginTop="30dp"
+        android:layout_toEndOf="@id/Description_Battery_Temperature"
+        android:textSize="20dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/Description_Battery_Technology"
+        android:layout_width="170dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/Description_Battery_Temperature"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="30dp"
+        android:textSize="20dp"
+        android:text="Technologie:"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/Details_Battery_Technology"
+        android:layout_width="180dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/Details_Battery_Temperature"
+        android:layout_marginTop="30dp"
+        android:layout_toEndOf="@id/Description_Battery_Technology"
+        android:textSize="20dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/Description_Battery_Health"
+        android:layout_width="170dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/Description_Battery_Technology"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="30dp"
+        android:textSize="20dp"
+        android:text="Zustand:"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/Details_Battery_Health"
+        android:layout_width="180dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/Details_Battery_Technology"
+        android:layout_marginTop="30dp"
+        android:layout_toEndOf="@id/Description_Battery_Health"
+        android:textSize="20dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/Description_Battery_Voltage"
+        android:layout_width="170dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/Description_Battery_Health"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="30dp"
+        android:textSize="20dp"
+        android:text="Spannung:"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/Details_Battery_Voltage"
+        android:layout_width="180dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/Details_Battery_Health"
+        android:layout_marginTop="30dp"
+        android:layout_toEndOf="@id/Description_Battery_Voltage"
+        android:textSize="20dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/Description_Battery_Current"
+        android:layout_width="170dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/Description_Battery_Voltage"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="30dp"
+        android:textSize="20dp"
+        android:text="Strom:"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/Details_Battery_Current"
+        android:layout_width="180dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/Details_Battery_Voltage"
+        android:layout_marginTop="30dp"
+        android:layout_toEndOf="@id/Description_Battery_Current"
+        android:textSize="20dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/Description_Battery_Status"
+        android:layout_width="170dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/Description_Battery_Current"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="30dp"
+        android:textSize="20dp"
+        android:text="Status:"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/Details_Battery_Status"
+        android:layout_width="180dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/Details_Battery_Current"
+        android:layout_marginTop="30dp"
+        android:layout_toEndOf="@id/Description_Battery_Status"
+        android:textSize="20dp"
+        android:textColor="@color/black"/>
+
+
+
+
+
+</RelativeLayout>
+
+
+
+
+

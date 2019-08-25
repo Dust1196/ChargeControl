@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <TextView
+        android:id="@+id/Settings_Headline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Einstellungen"
+        android:textColor="@color/black"
+        android:textSize="30dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="80dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="15dp">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableRow
+                android:minHeight="40dp">
+
+            <TextView
+                    android:id="@+id/Description_Edit_Name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Name ändern:"
+                    android:textSize="20dp"
+                    android:textColor="@color/black"/>
+
+            </TableRow>
+
+            <TableRow
+                android:minHeight="70dp">
+
+                <EditText
+                    android:id="@+id/Edit_Text_Name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:text="Name"
+                    android:theme="@style/Style_Settings" />
+
+                <Button
+                    android:id="@+id/Button_Edit_Name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:elevation="5dp"
+                    android:text="Name ändern"
+                    android:textAlignment="center"/>
+
+            </TableRow>
+            <TableRow
+                android:minHeight="70dp">
+
+                <TextView
+                    android:id="@+id/Description_Settings_LED"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="LEDs an/aus:"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <Switch
+                    android:id="@+id/Settings_switch_LED"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:theme="@style/Style_Settings" />
+
+            </TableRow>
+
+            <TableRow
+                android:minHeight="70dp">
+
+                <TextView
+                    android:id="@+id/Description_Settings_Entwickleroptionen"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Entwickleroptionen:"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <Switch
+                    android:id="@+id/Settings_switch_Entwickleroptionen"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:theme="@style/Style_Settings" />
+
+            </TableRow>
+
+            <TableRow
+                android:minHeight="70dp">
+
+                <TextView
+                    android:id="@+id/Description_Settings_Hysterese"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Hysterese in %:"
+                    android:textColor="@color/black"
+                    android:textSize="20dp" />
+
+                <EditText
+                    android:id="@+id/EditText_Hysterese"
+                    android:layout_width="20dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:inputType="number"
+                    android:textAlignment="center"/>
+
+
+            </TableRow>
+
+          <!--  <TableRow
+                android:minHeight="70dp">
+
+                <TextView
+                    android:id="@+id/Description_BackgroundAnimation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Animation:"
+                    android:textColor="@color/black"
+                    android:textSize="20dp"/>
+
+                <Switch
+                    android:id="@+id/Settings_Switch_BackgroundAnimation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:theme="@style/Style_Settings"
+                    />
+
+            </TableRow> -->
+
+
+        </TableLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

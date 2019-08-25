@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+        android:id="@+id/menue_top"
+        android:checkableBehavior="single">
+        <item android:id="@+id/nav_connected_main"
+            android:icon="@drawable/ic_battery"
+            android:title="Übersicht" />
+
+        <item android:id="@+id/nav_connected_strom"
+            android:icon="@drawable/ic_strom"
+            android:title="Stromfluss" />
+
+        <item android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_settings"
+            android:title="Einstellungen" />
+    </group>
+
+    <group
+        android:id="@+id/menue_bottom"
+        android:checkableBehavior="single">
+        <item android:id="@+id/Battery_Details"
+            android:icon="@drawable/ic_battery_details"
+            android:title="Akku Details"/>
+
+    </group>
+
+</menu>

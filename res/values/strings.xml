@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Charge Control</string>
+    <string name="navigation_bar_open">Open Navigation Bar</string>
+    <string name="navigation_bar_close">Close Navigation Bar</string>
+</resources>
